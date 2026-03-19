@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#81D4FA"/>
+      <stop offset="100%" stop-color="#E1F5FE"/>
+    </linearGradient>
+    <linearGradient id="baby" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8BC34A"/>
+      <stop offset="100%" stop-color="#689F38"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="600" fill="url(#sky4)"/>
+  <!-- Tree trunk -->
+  <rect x="340" y="0" width="80" height="600" fill="#795548" rx="10"/>
+  <rect x="345" y="0" width="12" height="600" fill="#8D6E63" opacity="0.4"/>
+  <!-- Branch -->
+  <path d="M 380 280 Q 500 250 650 270" stroke="#795548" stroke-width="30" fill="none" stroke-linecap="round"/>
+  <path d="M 380 280 Q 250 260 150 290" stroke="#795548" stroke-width="25" fill="none" stroke-linecap="round"/>
+  <!-- Leaves -->
+  <ellipse cx="650" cy="240" rx="60" ry="30" fill="#66BB6A" transform="rotate(-15 650 240)"/>
+  <ellipse cx="600" cy="250" rx="50" ry="25" fill="#4CAF50" transform="rotate(10 600 250)"/>
+  <ellipse cx="150" cy="265" rx="55" ry="28" fill="#66BB6A" transform="rotate(10 150 265)"/>
+  <ellipse cx="200" cy="275" rx="45" ry="22" fill="#4CAF50" transform="rotate(-8 200 275)"/>
+  <ellipse cx="690" cy="260" rx="40" ry="20" fill="#81C784" transform="rotate(-20 690 260)"/>
+  <!-- Baby dragon on branch -->
+  <!-- Tail wrapping around branch -->
+  <path d="M 350 300 Q 320 310 310 290 Q 305 270 320 265" stroke="#689F38" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- Body -->
+  <ellipse cx="440" cy="255" rx="70" ry="30" fill="url(#baby)"/>
+  <!-- Back legs gripping branch -->
+  <path d="M 390 270 L 385 285 Q 383 290 388 288" stroke="#558B2F" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- Front legs -->
+  <path d="M 480 268 L 485 283 Q 487 288 482 286" stroke="#558B2F" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- Neck -->
+  <path d="M 490 248 Q 520 235 545 230" stroke="#7CB342" stroke-width="22" fill="none" stroke-linecap="round"/>
+  <!-- Head (cute/smaller) -->
+  <ellipse cx="565" cy="225" rx="30" ry="22" fill="#7CB342"/>
+  <ellipse cx="585" cy="228" rx="16" ry="13" fill="#7CB342"/>
+  <!-- Big cute eye -->
+  <circle cx="558" cy="218" r="9" fill="#FFF9C4"/>
+  <circle cx="560" cy="218" r="5" fill="#1A1A0A"/>
+  <circle cx="558" cy="215" r="2" fill="white"/>
+  <!-- Little smile -->
+  <path d="M 580 232 Q 590 238 598 234" stroke="#33691E" stroke-width="1.5" fill="none"/>
+  <!-- Spots/stripes on baby (they have bands) -->
+  <rect x="415" y="242" width="6" height="22" rx="3" fill="#558B2F" opacity="0.5" transform="rotate(-5 418 253)"/>
+  <rect x="435" y="240" width="6" height="24" rx="3" fill="#558B2F" opacity="0.5"/>
+  <rect x="455" y="242" width="6" height="22" rx="3" fill="#558B2F" opacity="0.5" transform="rotate(5 458 253)"/>
+  <!-- Small butterfly -->
+  <ellipse cx="300" cy="180" rx="10" ry="7" fill="#FF8A65" opacity="0.7" transform="rotate(-20 300 180)"/>
+  <ellipse cx="312" cy="178" rx="10" ry="7" fill="#FFAB91" opacity="0.7" transform="rotate(20 312 178)"/>
+  <circle cx="306" cy="182" r="2" fill="#5D4037"/>
+  <!-- More leaves for framing -->
+  <ellipse cx="100" cy="100" rx="70" ry="35" fill="#A5D6A7" opacity="0.5" transform="rotate(-30 100 100)"/>
+  <ellipse cx="720" cy="120" rx="60" ry="30" fill="#A5D6A7" opacity="0.5" transform="rotate(20 720 120)"/>
+</svg>
