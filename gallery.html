@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pictures &ndash; Komodo Dragon Fan Site</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header>
+    <h1>&#x1F432; Komodo Dragon Fan Site &#x1F432;</h1>
+    <p class="subtitle">The biggest lizard in the whole world!</p>
+    <span class="tagline">A fun place to learn &mdash; perfect for school projects!</span>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html" class="active">Pictures</a>
+    <a href="diet.html">What They Eat</a>
+    <a href="habitat.html">Where They Live</a>
+    <a href="communications.html">Animal Communications</a>
+    <a href="reproduction.html">Mating &amp; Reproduction</a>
+    <a href="classification.html">Scientific Name</a>
+  </nav>
+
+  <main id="main">
+    <section class="gallery-intro">
+      <h2>&#x1F4F7; Komodo Dragon Pictures</h2>
+      <p>Click on any picture to see it bigger and learn something cool!</p>
+    </section>
+
+    <section class="gallery-grid">
+      <a class="gallery-item" href="gallery-tongue.html">
+        <img
+          src="images/dragon-tongue.svg"
+          alt="A Komodo dragon sticking out its tongue"
+        >
+        <div class="caption">
+          <h3>Tongue Taste</h3>
+          <p>It tastes the air!</p>
+        </div>
+      </a>
+
+      <a class="gallery-item" href="gallery-walking.html">
+        <img
+          src="images/dragon-walking.svg"
+          alt="A Komodo dragon walking"
+        >
+        <div class="caption">
+          <h3>Scales and Eyes</h3>
+          <p>Look at those scales!</p>
+        </div>
+      </a>
+
+      <a class="gallery-item" href="gallery-closeup.html">
+        <img
+          src="images/dragon-closeup.svg"
+          alt="A Komodo dragon close-up"
+        >
+        <div class="caption">
+          <h3>Big Mouth!</h3>
+          <p>Can you see its tongue?</p>
+        </div>
+      </a>
+
+      <a class="gallery-item" href="gallery-baby.html">
+        <img
+          src="images/dragon-baby.svg"
+          alt="A baby Komodo dragon"
+        >
+        <div class="caption">
+          <h3>Tongue Tricks</h3>
+          <p>Tongue = taste!</p>
+        </div>
+      </a>
+
+      <!-- Extra images for kids -->
+      <a class="gallery-item" href="gallery-eating.html">
+        <img
+          src="images/dragon-eating.svg"
+          alt="A Komodo dragon eating"
+        >
+        <div class="caption">
+          <h3>Snack Time</h3>
+          <p>Yummy foods!</p>
+        </div>
+      </a>
+
+      <a class="gallery-item" href="gallery-chat.html">
+        <img
+          src="images/dragon-chat.svg"
+          alt="A Komodo dragon with speech bubbles"
+        >
+        <div class="caption">
+          <h3>Dragon Chat</h3>
+          <p>Signals & sounds</p>
+        </div>
+      </a>
+    </section>
+
+    <section class="info-grid" style="margin-top:20px;">
+      <article class="info-card">
+        <div class="card-top">
+          <div class="icon">
+            <img src="images/dragon-chat.svg" alt="Communication icon" />
+          </div>
+          <h3>Quick Communication</h3>
+        </div>
+        <p>They share signals with body moves, smell, and sounds.</p>
+      </article>
+    </section>
+
+    <section class="submit-section">
+      <h2>&#x1F4E8; Share Your Dragon Photo!</h2>
+      <p>
+        Have you seen a Komodo dragon at the zoo? Send us your picture!
+        Ask a grown-up to help you fill this out.
+      </p>
+      <form action="#" onsubmit="alert('Thanks for sharing! (This is a demo site.)'); return false;">
+        <label for="visitor-name">Your First Name</label>
+        <input type="text" id="visitor-name" name="visitor-name" placeholder="Like: Sam" required>
+
+        <label for="photo-url">Link to Your Photo</label>
+        <input type="url" id="photo-url" name="photo-url" placeholder="https://example.com/my-photo.jpg" required>
+
+        <label for="photo-caption">Tell Us About It</label>
+        <textarea id="photo-caption" name="photo-caption" placeholder="What do you see in the picture?"></textarea>
+
+        <button type="submit">Send My Photo!</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Komodo Dragon Fan Site &copy; 2026 &mdash; Made for kids ages 6 to 10!</p>
+  </footer>
+</body>
+</html>
