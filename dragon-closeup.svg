@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4CAF50"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+    <radialGradient id="head3" cx="0.4" cy="0.4">
+      <stop offset="0%" stop-color="#7A8E4E"/>
+      <stop offset="100%" stop-color="#4A5A2E"/>
+    </radialGradient>
+  </defs>
+  <!-- Blurred green background -->
+  <rect width="800" height="600" fill="url(#bg3)"/>
+  <circle cx="150" cy="100" r="120" fill="#66BB6A" opacity="0.3"/>
+  <circle cx="700" cy="500" r="150" fill="#388E3C" opacity="0.3"/>
+  <!-- Large head filling frame -->
+  <!-- Lower jaw -->
+  <ellipse cx="420" cy="370" rx="250" ry="120" fill="#4A5A2E"/>
+  <!-- Upper head -->
+  <ellipse cx="400" cy="300" rx="270" ry="140" fill="url(#head3)"/>
+  <!-- Snout -->
+  <ellipse cx="620" cy="320" rx="120" ry="80" fill="#5D6E3B"/>
+  <!-- Nostril -->
+  <ellipse cx="710" cy="300" rx="12" ry="8" fill="#2E3718"/>
+  <!-- Mouth line -->
+  <path d="M 500 350 Q 600 365 730 345" stroke="#2E3718" stroke-width="4" fill="none"/>
+  <!-- Eye area -->
+  <ellipse cx="310" cy="260" rx="55" ry="45" fill="#5A6E36"/>
+  <!-- Eye -->
+  <ellipse cx="310" cy="260" rx="32" ry="28" fill="#E8D44D"/>
+  <ellipse cx="315" cy="260" rx="14" ry="22" fill="#1A1A0A"/>
+  <ellipse cx="312" cy="252" rx="6" ry="4" fill="rgba(255,255,255,0.3)"/>
+  <!-- Scale rows - detailed -->
+  <circle cx="350" cy="220" r="10" fill="none" stroke="#6B7E42" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="375" cy="230" r="10" fill="none" stroke="#6B7E42" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="400" cy="220" r="10" fill="none" stroke="#6B7E42" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="425" cy="230" r="10" fill="none" stroke="#6B7E42" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="450" cy="220" r="10" fill="none" stroke="#6B7E42" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="475" cy="230" r="10" fill="none" stroke="#6B7E42" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="500" cy="220" r="10" fill="none" stroke="#6B7E42" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="525" cy="235" r="10" fill="none" stroke="#6B7E42" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="362" cy="245" r="10" fill="none" stroke="#6B7E42" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="387" cy="255" r="10" fill="none" stroke="#6B7E42" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="550" cy="245" r="10" fill="none" stroke="#6B7E42" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="575" cy="255" r="10" fill="none" stroke="#6B7E42" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="600" cy="270" r="10" fill="none" stroke="#6B7E42" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="625" cy="280" r="10" fill="none" stroke="#6B7E42" stroke-width="1.5" opacity="0.3"/>
+  <!-- Forehead ridges -->
+  <path d="M 250 220 Q 300 200 350 210" stroke="#3E4A28" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M 260 235 Q 300 218 345 225" stroke="#3E4A28" stroke-width="2" fill="none" opacity="0.4"/>
+  <!-- Under-jaw lighter scales -->
+  <path d="M 350 380 Q 450 400 600 380" stroke="#8A9E5E" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M 360 395 Q 450 415 580 395" stroke="#8A9E5E" stroke-width="2" fill="none" opacity="0.3"/>
+</svg>

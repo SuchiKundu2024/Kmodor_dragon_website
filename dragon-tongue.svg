@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E0F7FA"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C8A96E"/>
+      <stop offset="100%" stop-color="#A0804A"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5D6E3B"/>
+      <stop offset="100%" stop-color="#3E4A28"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="600" fill="url(#sky)"/>
+  <!-- Ground -->
+  <ellipse cx="400" cy="520" rx="500" ry="120" fill="url(#ground)"/>
+  <!-- Tail -->
+  <path d="M 160 380 Q 80 400 30 360 Q 0 340 20 320" stroke="#4A5A2E" stroke-width="28" fill="none" stroke-linecap="round"/>
+  <!-- Body -->
+  <ellipse cx="300" cy="370" rx="170" ry="70" fill="url(#body)"/>
+  <!-- Back legs -->
+  <ellipse cx="200" cy="430" rx="30" ry="18" fill="#3E4A28"/>
+  <ellipse cx="380" cy="435" rx="32" ry="18" fill="#3E4A28"/>
+  <!-- Front leg -->
+  <ellipse cx="430" cy="430" rx="28" ry="16" fill="#4A5A2E"/>
+  <!-- Neck -->
+  <path d="M 430 360 Q 490 340 530 310" stroke="url(#body)" stroke-width="55" fill="none" stroke-linecap="round"/>
+  <!-- Head -->
+  <ellipse cx="570" cy="290" rx="65" ry="40" fill="#5D6E3B"/>
+  <!-- Snout -->
+  <ellipse cx="625" cy="295" rx="35" ry="25" fill="#5D6E3B"/>
+  <!-- Mouth line -->
+  <path d="M 600 300 Q 640 305 660 300" stroke="#2E3718" stroke-width="2" fill="none"/>
+  <!-- Eye -->
+  <circle cx="555" cy="278" r="10" fill="#F5E6A3"/>
+  <circle cx="557" cy="278" r="5" fill="#1A1A0A"/>
+  <!-- Tongue (forked) -->
+  <path d="M 658 298 L 710 285 L 720 275" stroke="#CC3333" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 658 298 L 710 285 L 722 290" stroke="#CC3333" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Scales pattern on body -->
+  <circle cx="250" cy="355" r="4" fill="#6B7E42" opacity="0.6"/>
+  <circle cx="270" cy="370" r="4" fill="#6B7E42" opacity="0.6"/>
+  <circle cx="290" cy="355" r="4" fill="#6B7E42" opacity="0.6"/>
+  <circle cx="310" cy="370" r="4" fill="#6B7E42" opacity="0.6"/>
+  <circle cx="330" cy="355" r="4" fill="#6B7E42" opacity="0.6"/>
+  <circle cx="350" cy="370" r="4" fill="#6B7E42" opacity="0.6"/>
+  <circle cx="370" cy="355" r="4" fill="#6B7E42" opacity="0.6"/>
+  <circle cx="230" cy="370" r="4" fill="#6B7E42" opacity="0.6"/>
+  <!-- Claws -->
+  <path d="M 175 442 L 168 455" stroke="#2E2E1A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 185 444 L 180 457" stroke="#2E2E1A" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 195 444 L 192 457" stroke="#2E2E1A" stroke-width="3" stroke-linecap="round"/>
+  <!-- Small plants -->
+  <path d="M 650 470 Q 655 440 660 470" stroke="#7CB342" stroke-width="3" fill="none"/>
+  <path d="M 660 470 Q 668 435 675 470" stroke="#7CB342" stroke-width="3" fill="none"/>
+  <path d="M 100 480 Q 108 450 115 480" stroke="#7CB342" stroke-width="3" fill="none"/>
+</svg>

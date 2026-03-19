@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="60%" stop-color="#FFECB3"/>
+      <stop offset="100%" stop-color="#E8D5A3"/>
+    </linearGradient>
+    <linearGradient id="body2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6B7E42"/>
+      <stop offset="100%" stop-color="#4A5A2E"/>
+    </linearGradient>
+  </defs>
+  <!-- Warm sky -->
+  <rect width="800" height="600" fill="url(#sky2)"/>
+  <!-- Distant hills -->
+  <ellipse cx="200" cy="450" rx="300" ry="100" fill="#C5B88A"/>
+  <ellipse cx="600" cy="460" rx="350" ry="110" fill="#B8A87A"/>
+  <!-- Ground/path -->
+  <rect x="0" y="430" width="800" height="170" fill="#D4B87A"/>
+  <path d="M 0 440 Q 200 420 400 445 Q 600 470 800 440" fill="#C8A96E"/>
+  <!-- Shadow -->
+  <ellipse cx="370" cy="470" rx="200" ry="20" fill="rgba(0,0,0,0.1)"/>
+  <!-- Tail -->
+  <path d="M 120 370 Q 60 380 20 350 Q -10 330 10 310" stroke="#4A5A2E" stroke-width="24" fill="none" stroke-linecap="round"/>
+  <!-- Body -->
+  <ellipse cx="270" cy="365" rx="160" ry="60" fill="url(#body2)"/>
+  <!-- Legs in walking pose -->
+  <!-- Back left (forward) -->
+  <path d="M 160 400 L 140 450 L 135 465" stroke="#3E4A28" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <!-- Back right (back) -->
+  <path d="M 200 400 L 220 445 L 230 460" stroke="#4A5A2E" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <!-- Front left (back) -->
+  <path d="M 370 395 L 390 440 L 400 455" stroke="#3E4A28" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <!-- Front right (forward) -->
+  <path d="M 400 390 L 380 440 L 370 455" stroke="#4A5A2E" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <!-- Neck -->
+  <path d="M 400 350 Q 460 330 510 310" stroke="#5D6E3B" stroke-width="48" fill="none" stroke-linecap="round"/>
+  <!-- Head -->
+  <ellipse cx="550" cy="295" rx="58" ry="35" fill="#5D6E3B"/>
+  <ellipse cx="598" cy="300" rx="30" ry="22" fill="#5D6E3B"/>
+  <!-- Mouth -->
+  <path d="M 580 305 Q 610 310 628 305" stroke="#2E3718" stroke-width="2" fill="none"/>
+  <!-- Eye -->
+  <circle cx="540" cy="283" r="9" fill="#F5E6A3"/>
+  <circle cx="542" cy="283" r="4.5" fill="#1A1A0A"/>
+  <!-- Belly detail -->
+  <path d="M 160 385 Q 270 410 380 385" stroke="#7A8E4E" stroke-width="2" fill="none" opacity="0.5"/>
+  <!-- Scales -->
+  <circle cx="220" cy="350" r="5" fill="#7A8E4E" opacity="0.4"/>
+  <circle cx="250" cy="360" r="5" fill="#7A8E4E" opacity="0.4"/>
+  <circle cx="280" cy="348" r="5" fill="#7A8E4E" opacity="0.4"/>
+  <circle cx="310" cy="360" r="5" fill="#7A8E4E" opacity="0.4"/>
+  <circle cx="340" cy="350" r="5" fill="#7A8E4E" opacity="0.4"/>
+  <!-- Footprints behind -->
+  <ellipse cx="500" cy="465" rx="12" ry="6" fill="rgba(0,0,0,0.08)" transform="rotate(-10 500 465)"/>
+  <ellipse cx="540" cy="460" rx="12" ry="6" fill="rgba(0,0,0,0.06)" transform="rotate(-5 540 460)"/>
+  <!-- Sun -->
+  <circle cx="700" cy="80" r="50" fill="#FFE082" opacity="0.8"/>
+</svg>

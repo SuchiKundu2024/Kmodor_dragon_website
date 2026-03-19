@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="eggbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF3E0"/>
+      <stop offset="100%" stop-color="#E1F5FE"/>
+    </linearGradient>
+    <linearGradient id="eggbody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5D6E3B"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#eggbg)"/>
+
+  <!-- Nest base -->
+  <ellipse cx="420" cy="445" rx="240" ry="90" fill="#D7CCC8" opacity="0.9"/>
+  <ellipse cx="420" cy="470" rx="200" ry="60" fill="#BCAAA4" opacity="0.65"/>
+
+  <!-- Eggs -->
+  <ellipse cx="340" cy="425" rx="40" ry="55" fill="#FFFDE7" stroke="#F9A825" stroke-width="4"/>
+  <ellipse cx="420" cy="408" rx="45" ry="58" fill="#FFECB3" stroke="#F57C00" stroke-width="4"/>
+  <ellipse cx="510" cy="425" rx="42" ry="55" fill="#FFF9C4" stroke="#F9A825" stroke-width="4"/>
+
+  <!-- Dragon body -->
+  <ellipse cx="360" cy="348" rx="210" ry="85" fill="url(#eggbody)"/>
+
+  <!-- Neck -->
+  <path d="M436 328 Q508 315 608 305" stroke="#66BB6A" stroke-width="52" fill="none" stroke-linecap="round"/>
+
+  <!-- Head -->
+  <ellipse cx="560" cy="285" rx="70" ry="45" fill="#4A5A2E"/>
+  <ellipse cx="608" cy="295" rx="34" ry="23" fill="#3E4A28"/>
+
+  <!-- Eye -->
+  <circle cx="575" cy="275" r="11" fill="#FFF9C4"/>
+  <circle cx="578" cy="275" r="5" fill="#1A1A0A"/>
+
+  <!-- Mouth -->
+  <path d="M582 308 Q610 315 628 306" stroke="#2E3718" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Tail -->
+  <path d="M150 420 Q70 420 32 380 Q10 352 40 330" stroke="#2E7D32" stroke-width="26" fill="none" stroke-linecap="round"/>
+
+  <!-- Legs -->
+  <path d="M275 450 L260 524" stroke="#2E7D32" stroke-width="18" stroke-linecap="round"/>
+  <path d="M340 455 L325 510" stroke="#4A5A2E" stroke-width="16" stroke-linecap="round"/>
+  <path d="M415 455 L405 518" stroke="#3E4A28" stroke-width="16" stroke-linecap="round"/>
+  <path d="M495 452 L524 518" stroke="#4A5A2E" stroke-width="16" stroke-linecap="round"/>
+
+  <!-- Sparkle stars -->
+  <polygon points="560,145 570,162 590,163 576,175 580,194 560,184 540,194 544,175 530,163 550,162" fill="#FFB300" opacity="0.9"/>
+  <polygon points="190,210 198,222 212,223 202,234 205,248 190,240 175,248 178,234 168,223 182,222" fill="#FFB300" opacity="0.9"/>
+</svg>
